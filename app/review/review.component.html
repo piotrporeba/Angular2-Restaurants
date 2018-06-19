@@ -1,0 +1,9 @@
+
+    <div id="reviewComment">
+        <input type="text" placeholder="Enter review comment" [(ngModel)]="review">
+        <button (click)="addReview(review)">Submit</button>
+
+    </div>
+    <div *ngIf="showNumOfReviews" id="numReviews">
+        <a href="#" data-toggle="tooltip" title="{{num}} reviews so far!">[{{num}}]</a>
+    </div>

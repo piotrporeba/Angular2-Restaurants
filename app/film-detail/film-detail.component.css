@@ -1,0 +1,41 @@
+.wrapper{
+height: 100%;
+clear: both;
+
+}
+.filmItem {
+	margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 20px 10px 10px 10px;
+    width: 47%;
+    height: 100%;
+    background-color: #D6D6C2;
+    float: left;
+    clear: both;
+}
+
+.review{
+	margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 10px;
+	
+    width: 47%;
+    height: 100%;
+    background-color: #D6D6C2;
+    float: left;
+}
+.map{
+	margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 10px;
+	
+    width: 47%;
+    height: 100%;
+    background-color: #D6D6C2;
+    float: left;
+}
+ul{
+
+	list-style-type: none;
+	margin-left: -40px;
+}

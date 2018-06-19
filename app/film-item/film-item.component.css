@@ -1,0 +1,29 @@
+
+.thumbnail {
+    padding: 25px;
+    background-color: #f2e6d9;
+}
+h3{
+    color: cornflowerblue;
+    float: left;
+    width: 100%;
+}
+#price{
+    padding: 20px;
+    float: right;
+    font-size: 18px;
+}
+
+.thumbnail img {
+    height: 200px;
+    width: 100%;
+}
+
+.thumbnail .caption {
+    height: 50px;
+    overflow: hidden;
+    padding: 0px;
+    clear: both;
+}
+
+

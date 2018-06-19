@@ -1,0 +1,51 @@
+<div class="wrapper">
+
+<div class="filmItem">
+    <h2>{{film.title }}</h2>
+    <img [src]="imageUrl"/>
+    <br>
+    <p> <br></p>
+    <p> </p>
+    <review [film]="film"></review>
+    <br><br>
+    <div>
+    	<h4>Opening hours: from {{film.openingHours}} 7 days a week</h4>
+    	<h4>Facilities: {{film.facilities}}</h4>
+        <score [score]="film.score"></score>
+        <h4>{{film.about}}</h4>
+        <a routerLink="/">Back to all Restaurants</a>
+    </div>
+    <br>
+    <H3>Our Menu</H3>
+    <div><img [src]="imageMenuUrl"/></div>
+
+
+</div>
+<div class="map">
+	<h3>We are Here</h3>
+	<p>{{film.address}}</p>
+	<div><img [src]="imageMapUrl"/></div>
+	<br>
+
+
+
+<div class="review">
+	
+<h3>Restaurant Reviews:</h3>
+</div>
+	<ul>
+	<li *ngFor="let review of film.reviews">
+		<div class="review">
+		{{review}}
+		</div>
+	</li>
+</ul>
+</div>
+    	
+    
+
+<br>
+
+<br>
+
+</div>

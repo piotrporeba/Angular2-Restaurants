@@ -1,0 +1,17 @@
+
+<div class="col-xs-12">
+    <div class = "thumbnail">
+        <img [src]="imageUrl" [routerLink]="['/film', film.id]">
+        <h3><a [routerLink]="['/film', film.id]">{{film.title}}</a></h3>
+        <p>County: {{film.county}}</p>
+        <p>Location: {{film.location}}</p>
+        <p>Cuisine: {{film.type}}</p>
+        <p>Average Price: {{film.averagePrice}}</p>
+        <p>{{film.address}}</p>
+        <br>
+        <div>
+            <score [score]="film.score"></score>
+        </div>
+    </div>
+</div>
+
